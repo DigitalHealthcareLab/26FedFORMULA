@@ -1,0 +1,44 @@
+{
+  "ChemFM/ChemFM-3B": {
+    "revision": "c1464dd3c51643d2d6926a71db98558be97e1ecf",
+    "path": "cache/hf/hub/models--ChemFM--ChemFM-3B/snapshots/c1464dd3c51643d2d6926a71db98558be97e1ecf",
+    "size_gb": 12.02
+  },
+  "Qwen/Qwen2.5-3B-Instruct": {
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "path": "cache/hf/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "size_gb": 6.18,
+    "variant": "Instruct (NOT the v8.4 Base line)",
+    "note": "used by earlier qwen_3b classifier runs; v8.4 P0.1 switches the prediction backbone family to the non-Instruct Base line, so those results are a different variant and are not merged with the new ones"
+  },
+  "ChemFM/ChemFM-1B": {
+    "revision": "f99dc2e89726539bb9cf31b2e2b4360650bac6a8",
+    "path": "cache/hf/hub/models--ChemFM--ChemFM-1B/snapshots/f99dc2e89726539bb9cf31b2e2b4360650bac6a8",
+    "size_gb": 3.61
+  },
+  "Qwen/Qwen2.5-1.5B": {
+    "revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "path": "cache/hf/hub/models--Qwen--Qwen2.5-1.5B/snapshots/8faed761d45a263340a0528343f099c05c9a4323",
+    "size_gb": 2.89,
+    "variant": "pretrained Base (non-Instruct)",
+    "fetched_for": "v8.4 P0 frozen probe / small-model LoRA"
+  },
+  "Qwen/Qwen2.5-3B": {
+    "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+    "path": "cache/hf/hub/models--Qwen--Qwen2.5-3B/snapshots/3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+    "size_gb": 5.76,
+    "variant": "pretrained Base (non-Instruct)",
+    "fetched_for": "v8.4 P0 frozen probe / small-model LoRA"
+  },
+  "Qwen/Qwen2.5-7B": {
+    "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+    "path": "cache/hf/hub/models--Qwen--Qwen2.5-7B/snapshots/d149729398750b98c0af14eb82c78cfe92750796",
+    "size_gb": 14.2,
+    "variant": "pretrained Base (non-Instruct)",
+    "fetched_for": "v8.4 P0 frozen probe / small-model LoRA"
+  },
+  "Qwen/Qwen2.5-0.5B": {
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "path": "cache/hf/hub/models--Qwen--Qwen2.5-0.5B/snapshots/060db6499f32faf8b98477b0a26969ef7d8b9987"
+  }
+}

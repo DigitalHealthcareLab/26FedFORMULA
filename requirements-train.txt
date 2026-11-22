@@ -1,0 +1,14 @@
+# Training / inference environment (Python 3.10.12, CUDA 12.1).
+# These are the exact versions the reported runs were produced with.
+torch==2.3.0
+transformers==4.45.2
+tokenizers==0.20.1
+peft==0.13.2
+accelerate==1.0.1
+safetensors==0.4.5
+rdkit==2024.9.1
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.15.3
+pyarrow==25.0.1

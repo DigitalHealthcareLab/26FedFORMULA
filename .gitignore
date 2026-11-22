@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# produced or fetched under FEDFORMULA_ROOT when that is this directory — never committed
+cache/
+data/
+teacher/
+third_party/
+experiments/
+*.pt
+*.npz
